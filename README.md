@@ -1,4 +1,4 @@
-# Notes for R/RStudio
+# R/RStudio
 
 ## Setting up WorkflowR
 
@@ -74,3 +74,11 @@ output:
 ### If the Push/Pull buttons are greyed out on RStudio
 
 - Go to the Terminal, navigate into the project directory, and use `git push -u origin master`. 
+
+# Conda
+
+Links:
+
+- [Conda cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
+- [Setup Conda on HPC](https://bitbucket.org/sahmri_bioinformatics/pipeline-resources/wiki/userSetUp)
+- [Install Conda packages offline](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/installing-with-conda.html)
