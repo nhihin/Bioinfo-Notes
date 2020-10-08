@@ -22,7 +22,7 @@ wflow_start("~/Projects/PROJECTNAME", existing = TRUE, overwrite = TRUE)
 
 - Use `wflow_open("analysis/your-file-name.Rmd")` to make a new analysis RMarkdown. 
 - Files must be built using `wflow_build("analysis/your-file-name.Rmd")` and committed using `wflow_publish("analysis/your-file-name.Rmd")`. 
-- Alternatively, if `wflow_publish` gives an [error](https://github.com/jdblischak/workflowr/issues/188), just build first using `flow_build` and commit the file(s) using the Git tab on RStudio. Not sure if this is bad practice but it seems to work fine. 
+- Alternatively, if `wflow_publish` gives an [error](https://github.com/jdblischak/workflowr/issues/188), just build first using `flow_build` and commit the file(s) using the Git tab on RStudio. Not sure if this is bad practice but it seems to work fine. (Or try to add a commit message - for some reason this works!)
 
 ### Editing the navigation bar
 
