@@ -82,3 +82,13 @@ Links:
 - [Conda cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 - [Setup Conda on HPC](https://bitbucket.org/sahmri_bioinformatics/pipeline-resources/wiki/userSetUp)
 - [Install Conda packages offline](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/installing-with-conda.html)
+
+# Screen
+
+- [How to use Linux Screen](https://linuxize.com/post/how-to-use-linux-screen/)
+
+- Node 8 on SAHMRI HPC has `screen` already installed, but in order to get it working for the other nodes, add the following alias to the `.bashrc`:
+
+```
+alias screen='/apps/bioinfo/local/bin/screen'
+```
